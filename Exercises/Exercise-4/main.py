@@ -7,12 +7,12 @@ def flatten_json(data, parent_key='', sep='_'):
     """
     Recursively flattens nested JSON objects.
     """
-    flat_dict = {}
-    for key, value in data.items():
-        new_key = f"{parent_key}{sep}{key}" if parent_key else key
+    flat_dict = {} # Start with an empty dictionary
+    for key, value in data.items(): # Loop through all key-value pairs in dictionary
+        new_key = f"{parent_key}{sep}{key}" if parent_key else key # Generate new key by combining parent key and current key
         if isinstance(value, dict):  # If value is a nested dictionary, recurse
             flat_dict.update(flatten_json(value, new_key, sep))
-        elif isinstance(value, list) and all(isinstance(i, (int, float)) for i in value):  # Handle coordinates         flat_dict[new_key + "_x"] = value[0]
+        elif isinstance(value, list) and all(isinstance(i, (int, float)) for i in value):  # Handle coordinates as separate columns
             flat_dict[new_key + "_x"] = value[0]
             flat_dict[new_key + "_y"] = value[1]
         else:
