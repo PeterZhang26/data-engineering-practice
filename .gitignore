@@ -1,3 +1,14 @@
 *.idea*
 *.DS_Store*
 *postgres-data*
+Exercises/Exercise-6/extracted_data/Divvy_Trips_2019_Q4.csv
+Exercises/Exercise-6/extracted_data/Divvy_Trips_2020_Q1.csv
+Exercises/Exercise-6/extracted_data/__MACOSX/._Divvy_Trips_2019_Q4.csv
+Exercises/Exercise-6/extracted_data/__MACOSX/._Divvy_Trips_2020_Q1.csv
+Exercises/Exercise-6/reports/average_trip_duration_per_day.csv
+Exercises/Exercise-6/reports/gender_trip_duration_comparison.csv
+Exercises/Exercise-6/reports/most_popular_start_station_per_month.csv
+Exercises/Exercise-6/reports/top_3_stations_last_2_weeks.csv
+Exercises/Exercise-6/reports/top_10_ages_longest_trips.csv
+Exercises/Exercise-6/reports/top_10_ages_shortest_trips.csv
+Exercises/Exercise-6/reports/trips_per_day.csv
