@@ -14,3 +14,6 @@ Exercises/Exercise-6/reports/top_10_ages_shortest_trips.csv
 Exercises/Exercise-6/reports/trips_per_day.csv
 Exercises/Exercise-6/__pycache__/main.cpython-313.pyc
 Exercises/Exercise-6/tests/__pycache__/test_pyspark.cpython-313-pytest-7.4.4.pyc
+Exercises/Exercise-7/data/extracted_data/hard-drive-2022-01-01-failures.csv
+Exercises/Exercise-7/data/extracted_data/__MACOSX/._hard-drive-2022-01-01-failures.csv
+Exercises/Exercise-7/data/processed_data/processed_hard_drive_data.csv
