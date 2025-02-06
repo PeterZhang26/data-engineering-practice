@@ -12,3 +12,5 @@ Exercises/Exercise-6/reports/top_3_stations_last_2_weeks.csv
 Exercises/Exercise-6/reports/top_10_ages_longest_trips.csv
 Exercises/Exercise-6/reports/top_10_ages_shortest_trips.csv
 Exercises/Exercise-6/reports/trips_per_day.csv
+Exercises/Exercise-6/__pycache__/main.cpython-313.pyc
+Exercises/Exercise-6/tests/__pycache__/test_pyspark.cpython-313-pytest-7.4.4.pyc
